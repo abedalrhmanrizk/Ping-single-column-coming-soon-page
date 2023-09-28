@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="./index.js" defer></script>
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div><img src="./images/logo.svg" alt="" /></div>
+
+        <div>
+          <h1>We are launching <span>soon!</span></h1>
+
+          <p>Subscribe and get notified</p>
+        </div>
+
+        <form id="form" novalidate>
+          <div class="wrapper">
+            <div>
+              <input
+                id="email"
+                type="email"
+                placeholder="Subscribe and get notified"
+              />
+              <p class="error-message" id="error-message"></p>
+            </div>
+            <button>Notify Me</button>
+          </div>
+        </form>
+      </section>
+
+      <div>
+        <img src="./images/illustration-dashboard.png" alt="" />
+      </div>
+
+      <footer>
+        <ul>
+          <li>
+            <a href="#" aria-label="facebook">
+              <i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" aria-label="twitter"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" aria-label="instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </footer>
+    </main>
+  </body>
+</html>
